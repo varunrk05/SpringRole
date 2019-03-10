@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './navbar';
-import Profile from './profile';
-import ExpEndorse from './experience';
+import Navbar from './Components/navbar';
+import Profile from './Components/profile';
+import ExpEndorse from './Components/experience';
 
 class App extends Component {
   render() {
