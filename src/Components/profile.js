@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import write_to_blockchain_img from './images/write-to-blockchain-img.png';
-import profile_img from './images/profile_img.jpg';
-import Message_mobile from './images/Message_mobile.png';
-import Copy_Link from './images/Copy-Link.png';
-import check_green_icon from './images/check-green-icon.png';
-import './index.css';
+import write_to_blockchain_img from '../images/write-to-blockchain-img.png';
+import profile_img from '../images/profile_img.jpg';
+import Message_mobile from '../images/Message_mobile.png';
+import Copy_Link from '../images/Copy-Link.png';
+import check_green_icon from '../images/check-green-icon.png';
 
 class Profile extends Component{
     render() {

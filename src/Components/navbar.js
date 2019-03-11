@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import sr_logo_updated from './images/sr_logo_updated.png';
-import './index.css';
+import sr_logo_updated from '../images/sr_logo_updated.png';
 
 class Navbar extends Component{
     render(){

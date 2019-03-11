@@ -13,6 +13,18 @@ class ExpEndorse extends Component{
                             <div>Verify Experience</div>
                         </div>
                     </div>
+                    <div className = "exp">
+                        <div className = "exp-det">
+                            <div className = "exp-text">
+                                10+
+                                <span>yrs</span>
+                            </div>
+                            <div className = "exp-bar exp-bar-1"></div>
+                            <div className = "exp-bar exp-bar-2"></div>
+                            <div className = "exp-bar exp-bar-3"></div>
+                            <div className = "exp-txt">Experience</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

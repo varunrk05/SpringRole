@@ -9,6 +9,10 @@ body{
   background: #f5f7f8;
 }
 
+#root{
+  height: 100%;
+}
+
 img-responsive{
   display: block;
   max-width: 100%;
@@ -240,11 +244,11 @@ h1 span img{
   padding-left: 15px;
 }
 
-.profile-det .profile-footer .url-link{
+.profile-det .profile-footer .url-link h4{
   float: left;
   color: #808080;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .profile-det .profile-footer .copy-link-img{
@@ -292,13 +296,114 @@ h1 span img{
   border-radius: 4px;
   padding: 10px 15px;
   margin-right: 22px;
+  transition: all 0.25s;
 }
 
 .btn-panel .endorse-btn{
   color: #004FC1;
 }
 
+.btn-panel .endorse-btn:hover{
+  color: #fff;
+  background: #004FC1;
+}
+
 .btn-panel .verify-exp-btn{
   color: #fff;
   background: #004FC1;
 }
+
+.btn-panel .verify-exp-btn:hover{
+  color: #004FC1;
+  background: #fff;
+}
+
+.exp-endorse-bar .exp-endorse-content .exp{
+  display: block;
+  height: 50px;
+  float: right;
+}
+
+.exp-endorse-bar .exp-endorse-content .exp-det{
+  display: block;
+  float: left;
+  height: 32px;
+  width: 34px;
+  position: relative;
+  color: #959595;
+}
+
+.exp-det .exp-text{
+  font-size: 18px;
+  color: #4A4A4A;
+  font-weight: 500;
+  top: -9px;
+  position: absolute;
+  left: -8px;
+}
+
+.exp-det .exp-text span{
+  font-size: 8px;
+  position: absolute;
+  top: -2px;
+}
+
+.exp-det .exp-bar{
+  display: block;
+  width: 10px;
+}
+
+.exp-det .exp-bar .exp-bar-1{
+  height: 11px;
+  color: #F7BE6C;
+}
+
+.exp-det .exp-bar .exp-bar-2{
+  height: 21px;
+  color: #FF8100;
+}
+
+.exp-det .exp-bar .exp-bar-3{
+  height: 32px;
+  color: #D86D00;
+}
+
+.exp-det .exp-txt{
+  color: #959595;
+  font-size: 10px;
+  position: absolute;
+  top: 32px;
+}
+
+/* CSS styling for bio.js */
+.bio-main{
+  display: block;
+  width: 100%;
+  height: 65px;
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bio-main .bio-about-me{
+  display: block;
+  height: 100%;
+  text-align: center;
+  background-color: #fff;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 200;
+  margin: 10px 0; 
+}
+
+.bio-main .bio-about-me h3{
+  display: block;
+  line-height: 65px;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* CSS styling for wse.js */

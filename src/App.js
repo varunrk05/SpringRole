@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './Components/navbar';
 import Profile from './Components/profile';
 import ExpEndorse from './Components/experience';
+import Bio from './Components/bio';
+import WorkSkEd from './Components/wse';
 
 class App extends Component {
   render() {
@@ -11,6 +13,8 @@ class App extends Component {
         <Navbar />
         <Profile />
         <ExpEndorse />
+        <Bio />
+        <WorkSkEd />
       </div>
     );
   }
